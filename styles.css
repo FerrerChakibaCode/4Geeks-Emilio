@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+}
+
+.first-div {
+    height: 250px;
+    position: relative;
+    padding: 2.5% 5%;
+    font-weight: 600;
+}
+
+.left-sided {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 45%;
+    
+}
+
+.right-sided {
+    float: right;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+}
+
+.second-div {
+    font-weight: 500;
+    position: relative;
+    padding: 2.5% 5%;
+    line-height: 32px;
+    height: 100px;
+}
+
+.button {
+    text-align: center;
+    width: 800px;
+    margin: 40px auto;
+}
